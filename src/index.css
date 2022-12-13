@@ -27,21 +27,27 @@
         @apply bg-sidebar-bg absolute  left-16 w-[96.65%] h-[100%] 
     }
     .green-header{
-        @apply bg-homepage-header h-[3.6%]  rounded-t-xl flex justify-center
+        @apply bg-homepage-header h-[3.8%]  rounded-t-xl flex justify-center
     }
     .header-text{
         @apply text-sidebar-icon-text-hover text-sm font-ggsans
     }
     .header-button{
         @apply text-sidebar-icon-text-hover text-sm font-ggsans ml-3 border-white 
-        border-[1px] py-[2px] px-2 rounded-sm hover:text-homepage-header  hover:bg-sidebar-icon-text-hover
+        border-[1px] py-[1px] px-2 rounded-sm hover:text-homepage-header  hover:bg-sidebar-icon-text-hover
         transition-all ease-linear 
     }
     .body-left{
-       @apply text-white
+       @apply bg-body-left-bg 
     }
     .body-center{
-       @apply text-white
+       @apply bg-body-center-bg
+    }
+    .body-left-header{
+        @apply  h-12 flex justify-center  items-center  shadow-gray-900 shadow-sm
+    } 
+    .body-left-header-button{
+        @apply bg-sidebar-bg text-body-text text-sm py-[4px] px-6  font-ggsans rounded-[4px] 
     }
 }
 
