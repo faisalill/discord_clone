@@ -1,0 +1,16 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: absolute;
+    width: 6rem;
+    height: 100%;
+    background-color: #0F0F0F;
+
+}
+
+.menu-icon{
+    color: white;
+}

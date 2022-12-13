@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .sidebar-icon{
+        @apply relative flex justify-center my-2 bg-sidebar-icon-bg
+        h-12 w-12 items-center mx-auto text-sidebar-icon-text rounded-3xl
+        hover:bg-sidebar-icon-bg-hover hover:text-sidebar-icon-text-hover
+        hover:rounded-2xl transition-all duration-75 ease-linear cursor-pointer
+        
+    }
+    .sidebar-discord-icon{
+        @apply relative flex justify-center my-2 bg-discord-icon-bg
+        h-12 w-12 items-center mx-auto text-sidebar-icon-text-hover rounded-2xl
+        
+         transition-all duration-75 ease-linear cursor-pointer
+    }
+    .sidebar-tooltip{
+        @apply absolute left-16 bg-black  h-max w-max p-2 rounded-md font-ggsans
+        transition-all ease-linear duration-75 scale-0 
+    }
+    .sidebar-br {
+        @apply w-8 h-[2px] relative left-4 rounded-full bg-sidebar-icon-bg
+    }
+    .homepage{
+        @apply bg-sidebar-bg absolute  left-16 w-[96.65%] h-[100%] 
+    }
+    .green-header{
+        @apply bg-homepage-header h-[3.6%]  rounded-t-xl flex justify-center
+    }
+    .header-text{
+        @apply text-sidebar-icon-text-hover text-sm font-ggsans
+    }
+    .header-button{
+        @apply text-sidebar-icon-text-hover text-sm font-ggsans ml-3 border-white 
+        border-[1px] py-[2px] px-2 rounded-sm hover:text-homepage-header  hover:bg-sidebar-icon-text-hover
+        transition-all ease-linear 
+    }
+    .body-left{
+       @apply text-white
+    }
+    .body-center{
+       @apply text-white
+    }
+}
+
+@font-face {
+    font-family: 'ggsans';
+    src: url('./assets/font/font/ggsans-Medium.ttf');
+}
