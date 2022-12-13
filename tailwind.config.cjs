@@ -25,7 +25,8 @@ module.exports = {
         "plus-icon-bg" : "#B9BBBE",
         "skeleton-circle": "#36393F",
         "left-bottom-bg": "#292B2F",
-        
+        "left-bottom-bottom-number": "#B4AFAB",
+
 
     
       },

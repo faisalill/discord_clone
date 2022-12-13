@@ -49,6 +49,9 @@
     .body-left-header-button{
         @apply bg-sidebar-bg text-body-text text-sm py-[4px] px-6  font-ggsans rounded-[4px] 
     }
+    .left-bottom-tooltip{
+        @apply absolute bottom-9 right-[-17px] bg-black p-2 rounded-md scale-0 text-sm font-ggsans font-extralight
+    }
 }
 
 @font-face {
