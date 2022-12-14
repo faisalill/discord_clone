@@ -26,15 +26,22 @@ module.exports = {
         "skeleton-circle": "#36393F",
         "left-bottom-bg": "#292B2F",
         "left-bottom-bottom-number": "#B4AFAB",
-
-
-    
+        "text-hover": "#F2FFFF",
+        "add-friend-text": "#41C26E",
+        "normal-text": "#ACB9B6",
+        "body-center-text": "#929599",
+        "shady-white": "#D0D1D3",
+        "button-bg": "#3C438B",
+        "button-text-bg": "#7E8090",
+        "division": "#4F545C99",
       },
       flex: {
-        '6.5': '6.5 6.5 0%'
+        '6.5': '6.5 6.5 0%',
+        '2.8': '2.85 2.85 0%',
       },
       fontFamily: {
-        'ggsans': ['ggsans', 'sans']
+        'ggsans': ['ggsans', 'sans'],
+        'ggsans-light': ['ggsans-light', 'sans']
       }
     },
   },
