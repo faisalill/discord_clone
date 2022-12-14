@@ -286,7 +286,7 @@ const HomePage = () => {
                 <h1 className="font-ggsans font-bold relative top-[18px] left-8 text-sidebar-icon-text-hover">
                   ADD FRIEND
                 </h1>
-                <p className="font-ggsans-light text-sm font-extralight relative top-6 left-8 text-body-center-text">
+                <p className="font-ggsans-light text-sm font-extralight relative top-6 left-8 text-plus-icon-bg">
                   You can add a friend with their Discord Tag. It's cAsE
                   sEnSitIvE!
                 </p>
@@ -301,9 +301,14 @@ const HomePage = () => {
                 <div className="w-[100%] h-[1px] relative top-[60px] bg-division"></div>
               </div>
             </div>
-            <div className="flex-1">
-              <div className="bg-black">.</div>
-              <div>.</div>
+            <div className="flex-1 ">
+              <div className="bg-division absolute w-[1px] h-full">.</div>
+              <div>
+                <h1 className="relative top-6 left-5 text-text-hover w-max font-bold font-ggsans text-xl">Active Now</h1>
+                <h2 className="relative top-[52px] left-[148px] w-max text-text-hover  font-ggsans-semibold">It's quiet for now...</h2>
+                <h5 className="relative top-12 left-14 w-max font-ggsans-light text-plus-icon-bg text-center text-sm mt-1">When a friend starts an activity-like playing a game or</h5>
+                <h5 className="relative top-[42px] left-24 w-max font-ggsans-light text-plus-icon-bg text-center text-sm mt-1">hanging out on voice-we'll show it here!</h5>              
+              </div>
             </div>
           </div>
         </div>

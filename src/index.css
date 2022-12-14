@@ -65,3 +65,11 @@
     font-family: 'ggsans-light';
     src: url('./assets/font/font/ggsans-Normal.ttf');
 }
+@font-face {
+    font-family: 'ggsans-semibold';
+    src: url('./assets/font/font/ggsans-Semibold.ttf');
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}

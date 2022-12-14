@@ -37,11 +37,12 @@ module.exports = {
       },
       flex: {
         '6.5': '6.5 6.5 0%',
-        '2.8': '2.85 2.85 0%',
+        '2.8': '2.95 2.95 0%',
       },
       fontFamily: {
         'ggsans': ['ggsans', 'sans'],
-        'ggsans-light': ['ggsans-light', 'sans']
+        'ggsans-light': ['ggsans-light', 'sans'],
+        'ggsans-semibold': ['ggsans-semibold', 'sans']
       }
     },
   },
